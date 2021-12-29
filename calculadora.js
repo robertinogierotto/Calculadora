@@ -1,0 +1,12 @@
+let sumar = require('./sumar.js')
+let restar = require('./restar.js')
+let multiplicar = require('./multiplicar.js')
+let dividir = require('./dividir')
+
+console.log(sumar(5, 5))
+console.log(restar(12, 2))
+console.log(multiplicar(5, 2))
+console.log(multiplicar(5, 0))
+console.log(dividir(100, 10))
+console.log(dividir(9, 0))
+console.log(dividir(0, 9))
